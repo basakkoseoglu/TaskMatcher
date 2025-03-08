@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Görevler Yönetimi</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <h1>Görevler Yönetimi</h1>
+    <nav>
+        <a href="/">Ana Sayfa</a>
+        <a href="/gorev_ekle">Yeni Görev Ekle</a>
+    </nav>
+
+    {% if gorevler %}
+    <h2>Görev Listesi</h2>
+    <table border="1" cellspacing="0" cellpadding="8" class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Görev Adı</th>
+                <th>Süre</th>
+                <th>Gereksinim</th>
+                <th>Atanan Çalışan</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for gorev in gorevler %}
+            <tr>
+                <td>{{ gorev.isim }}</td>
+                <td>{{ gorev.sure }}</td>
+                <td>{{ gorev.gereksinim }}</td>
+                <td>
+                    {{ gorev.atanan_calisan if gorev.atanan_calisan else "Atanmadı" }}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% else %}
+    <p>Henüz eklenmiş bir görev bulunmuyor.</p>
+    {% endif %}
+
+    <h3>Atanamadı mı?</h3>
+    <p>
+        Eğer bazı görevler atanmadıysa, çalışanların kapasitelerini kontrol edin veya yeni çalışan ekleyerek gereksinimleri karşılamalarını sağlayabilirsiniz.
+    </p>
+</body>
+</html>

@@ -1,0 +1,518 @@
+{
+    "calisanlar": [
+        {
+            "isim": "Ahmet",
+            "kapasite": 8,
+            "yetkinlikler": [
+                "Yazılım Geliştirme",
+                "Programlama"
+            ],
+            "gorevler": [
+                {
+                    "isim": "Yazılım Geliştirme",
+                    "sure": 8,
+                    "gereksinim": "Programlama",
+                    "atanan_calisan": "Ahmet"
+                }
+            ]
+        },
+        {
+            "isim": "Ayşe",
+            "kapasite": 7,
+            "yetkinlikler": [
+                "HTML",
+                "Sosyal Medya Yönetimi"
+            ],
+            "gorevler": [
+                {
+                    "isim": "Sosyal Medya Yöntecisi",
+                    "sure": 7,
+                    "gereksinim": "Sosyal Medya Yönetimi",
+                    "atanan_calisan": "Ayşe"
+                }
+            ]
+        },
+        {
+            "isim": "Mehmet",
+            "kapasite": 8,
+            "yetkinlikler": [
+                "Sistem Yöneticisi",
+                "İstatistik"
+            ],
+            "gorevler": [
+                {
+                    "isim": "Rapor Yazma",
+                    "sure": 7,
+                    "gereksinim": "İstatistik",
+                    "atanan_calisan": "Mehmet"
+                }
+            ]
+        },
+        {
+            "isim": "Zeynep",
+            "kapasite": 6,
+            "yetkinlikler": [
+                "Grafik Tasarım",
+                "İçerik Yönetimi"
+            ],
+            "gorevler": [
+                {
+                    "isim": "Grafik Tasarım",
+                    "sure": 6,
+                    "gereksinim": "Grafik Tasarım",
+                    "atanan_calisan": "Zeynep"
+                }
+            ]
+        },
+        {
+            "isim": "Murat",
+            "kapasite": 8,
+            "yetkinlikler": [
+                "Veri Analizi",
+                "Bütçe Yönetimi"
+            ],
+            "gorevler": [
+                {
+                    "isim": "Veri Analizi",
+                    "sure": 7,
+                    "gereksinim": "Veri Analizi",
+                    "atanan_calisan": "Murat"
+                }
+            ]
+        },
+        {
+            "isim": "Elif",
+            "kapasite": 8,
+            "yetkinlikler": [
+                "Tasarım",
+                "Raporlama"
+            ],
+            "gorevler": [
+                {
+                    "isim": "Rapor Yazımı",
+                    "sure": 4,
+                    "gereksinim": "Raporlama",
+                    "atanan_calisan": "Elif"
+                }
+            ]
+        },
+        {
+            "isim": "Hasan",
+            "kapasite": 8,
+            "yetkinlikler": [
+                "Yazılım Testi",
+                "Kodlama"
+            ],
+            "gorevler": [
+                {
+                    "isim": "Yazılım Testi",
+                    "sure": 8,
+                    "gereksinim": "Kodlama",
+                    "atanan_calisan": "Hasan"
+                }
+            ]
+        },
+        {
+            "isim": "Hülya",
+            "kapasite": 6,
+            "yetkinlikler": [
+                "Finansal Analiz",
+                "Bütçe Yönetimi"
+            ],
+            "gorevler": []
+        },
+        {
+            "isim": "Ali",
+            "kapasite": 7,
+            "yetkinlikler": [
+                "Proje Yönetimi",
+                "Liderlik"
+            ],
+            "gorevler": [
+                {
+                    "isim": "Proje Yönetimi",
+                    "sure": 7,
+                    "gereksinim": "Liderlik",
+                    "atanan_calisan": "Ali"
+                }
+            ]
+        },
+        {
+            "isim": "Seda",
+            "kapasite": 8,
+            "yetkinlikler": [
+                "İçerik Yönetimi",
+                "SEO"
+            ],
+            "gorevler": [
+                {
+                    "isim": "SEO",
+                    "sure": 8,
+                    "gereksinim": "İçerik Yönetimi",
+                    "atanan_calisan": "Seda"
+                }
+            ]
+        },
+        {
+            "isim": "Cemil",
+            "kapasite": 6,
+            "yetkinlikler": [
+                "Satın Alma",
+                "Tedarik Zinciri"
+            ],
+            "gorevler": []
+        },
+        {
+            "isim": "Gökhan",
+            "kapasite": 7,
+            "yetkinlikler": [
+                "Web Geliştirme",
+                "PHP",
+                "HTML"
+            ],
+            "gorevler": [
+                {
+                    "isim": "Web Geliştirme",
+                    "sure": 7,
+                    "gereksinim": "PHP",
+                    "atanan_calisan": "Gökhan"
+                }
+            ]
+        },
+        {
+            "isim": "İrem",
+            "kapasite": 8,
+            "yetkinlikler": [
+                "Müşteri İlişkileri",
+                "Ekip Yönetimi"
+            ],
+            "gorevler": []
+        },
+        {
+            "isim": "Burak",
+            "kapasite": 6,
+            "yetkinlikler": [
+                "Sosyal Medya Yönetimi",
+                "Pazarlama"
+            ],
+            "gorevler": [
+                {
+                    "isim": "Pazarlama",
+                    "sure": 6,
+                    "gereksinim": "Pazarlama",
+                    "atanan_calisan": "Burak"
+                }
+            ]
+        },
+        {
+            "isim": "Aslı",
+            "kapasite": 7,
+            "yetkinlikler": [
+                "Satış Temsilcisi",
+                "Müşteri İlişkileri"
+            ],
+            "gorevler": []
+        },
+        {
+            "isim": "Okan",
+            "kapasite": 8,
+            "yetkinlikler": [
+                "Endüstri Mühendisliği",
+                "Verimlilik"
+            ],
+            "gorevler": [
+                {
+                    "isim": "Endüstri Mühendisliği",
+                    "sure": 8,
+                    "gereksinim": "Verimlilik",
+                    "atanan_calisan": "Okan"
+                }
+            ]
+        },
+        {
+            "isim": "Duygu",
+            "kapasite": 6,
+            "yetkinlikler": [
+                "Hukuk",
+                "Sözleşme Yönetimi"
+            ],
+            "gorevler": [
+                {
+                    "isim": "Hukuk",
+                    "sure": 6,
+                    "gereksinim": "Sözleşme Yönetimi",
+                    "atanan_calisan": "Duygu"
+                }
+            ]
+        },
+        {
+            "isim": "Emre",
+            "kapasite": 8,
+            "yetkinlikler": [
+                "Ağ Güvenliği",
+                "Siber Güvenlik"
+            ],
+            "gorevler": [
+                {
+                    "isim": "Siber Güvenlik",
+                    "sure": 8,
+                    "gereksinim": "Ağ Güvenliği",
+                    "atanan_calisan": "Emre"
+                }
+            ]
+        },
+        {
+            "isim": "Cansu",
+            "kapasite": 7,
+            "yetkinlikler": [
+                "Ürün Yönetimi",
+                "Ürün Geliştirme"
+            ],
+            "gorevler": []
+        },
+        {
+            "isim": "Kadir",
+            "kapasite": 6,
+            "yetkinlikler": [
+                "Dijital Pazarlama",
+                "SEO"
+            ],
+            "gorevler": [
+                {
+                    "isim": "SEO",
+                    "sure": 6,
+                    "gereksinim": "Dijital Pazarlama",
+                    "atanan_calisan": "Kadir"
+                }
+            ]
+        },
+        {
+            "isim": "Funda",
+            "kapasite": 8,
+            "yetkinlikler": [
+                "Yazılım Geliştirme",
+                "Programlama"
+            ],
+            "gorevler": [
+                {
+                    "isim": "Veri Analizi",
+                    "sure": 8,
+                    "gereksinim": "Yazılım Geliştirme",
+                    "atanan_calisan": "Funda"
+                }
+            ]
+        },
+        {
+            "isim": "Onur",
+            "kapasite": 7,
+            "yetkinlikler": [
+                "İletişim",
+                "Medya İlişkileri"
+            ],
+            "gorevler": [
+                {
+                    "isim": "Medya İlişkileri",
+                    "sure": 7,
+                    "gereksinim": "İletişim",
+                    "atanan_calisan": "Onur"
+                }
+            ]
+        },
+        {
+            "isim": "Hatice",
+            "kapasite": 8,
+            "yetkinlikler": [
+                "Çeviri",
+                "Dil Bilgisi"
+            ],
+            "gorevler": []
+        },
+        {
+            "isim": "Mehmet Ali",
+            "kapasite": 6,
+            "yetkinlikler": [
+                "Operasyon",
+                "Süreç Yönetimi"
+            ],
+            "gorevler": [
+                {
+                    "isim": "Operasyon",
+                    "sure": 6,
+                    "gereksinim": "Süreç Yönetimi",
+                    "atanan_calisan": "Mehmet Ali"
+                }
+            ]
+        },
+        {
+            "isim": "Selin",
+            "kapasite": 7,
+            "yetkinlikler": [
+                "Eğitim Koordinatörü",
+                "İçerik Üretimi"
+            ],
+            "gorevler": [
+                {
+                    "isim": "Eğitim Koordinatörü",
+                    "sure": 7,
+                    "gereksinim": "İçerik Üretimi",
+                    "atanan_calisan": "Selin"
+                }
+            ]
+        },
+        {
+            "isim": "Emre",
+            "kapasite": 7,
+            "yetkinlikler": [
+                "Finansal Planlama",
+                "Risk Yönetimi"
+            ],
+            "gorevler": []
+        },
+        {
+            "isim": "Cem",
+            "kapasite": 8,
+            "yetkinlikler": [
+                "Yazılım Geliştirme",
+                "Veri Analizi"
+            ],
+            "gorevler": [
+                {
+                    "isim": "Veri Analizi",
+                    "sure": 7,
+                    "gereksinim": "Veri Analizi",
+                    "atanan_calisan": "Cem"
+                }
+            ]
+        },
+        {
+            "isim": "Ayşe",
+            "kapasite": 6,
+            "yetkinlikler": [
+                "Pazarlama",
+                "Strateji Geliştirme"
+            ],
+            "gorevler": []
+        },
+        {
+            "isim": "Başak",
+            "kapasite": 8,
+            "yetkinlikler": [
+                "Mobil Uygulama",
+                "Yazılım Geliştirme"
+            ],
+            "gorevler": [
+                {
+                    "isim": "Mobil Uygulama ",
+                    "sure": 8,
+                    "gereksinim": "Mobil Uygulama",
+                    "atanan_calisan": "Başak"
+                }
+            ]
+        },
+        {
+            "isim": "Canan",
+            "kapasite": 8,
+            "yetkinlikler": [
+                "Web Geliştirme",
+                "Yazılım Geliştirici"
+            ],
+            "gorevler": []
+        },
+        {
+            "isim": "Samet",
+            "kapasite": 5,
+            "yetkinlikler": [
+                "Flutter",
+                " Web Tasarımı"
+            ],
+            "gorevler": [
+                {
+                    "isim": "Web Geliştirme",
+                    "sure": 5,
+                    "gereksinim": "Flutter",
+                    "atanan_calisan": "Samet"
+                }
+            ]
+        },
+        {
+            "isim": "Oğulcan Bozkurt ",
+            "kapasite": 10,
+            "yetkinlikler": [
+                "Veri Analizi",
+                "Java"
+            ],
+            "gorevler": [
+                {
+                    "isim": "Veri Analizi",
+                    "sure": 10,
+                    "gereksinim": "Java",
+                    "atanan_calisan": "Oğulcan Bozkurt "
+                }
+            ]
+        },
+        {
+            "isim": "Canan Sarıkaya",
+            "kapasite": 12,
+            "yetkinlikler": [
+                "Flutter",
+                "Yazılım"
+            ],
+            "gorevler": [
+                {
+                    "isim": "Flutter",
+                    "sure": 12,
+                    "gereksinim": "Yazılım",
+                    "atanan_calisan": "Canan Sarıkaya"
+                }
+            ]
+        },
+        {
+            "isim": "Başak Köseoğlu",
+            "kapasite": 9,
+            "yetkinlikler": [
+                "Yazılım Testi",
+                "Yazılım"
+            ],
+            "gorevler": [
+                {
+                    "isim": "Yazılım",
+                    "sure": 9,
+                    "gereksinim": "Yazılım Testi",
+                    "atanan_calisan": "Başak Köseoğlu"
+                }
+            ]
+        },
+        {
+            "isim": "Burçin Güngör",
+            "kapasite": 12,
+            "yetkinlikler": [
+                "Kotlin",
+                "HTML"
+            ],
+            "gorevler": [
+                {
+                    "isim": "Mobil",
+                    "sure": 12,
+                    "gereksinim": "Kotlin",
+                    "atanan_calisan": "Burçin Güngör"
+                }
+            ]
+        },
+        {
+            "isim": "İbrahim Şanlıalp",
+            "kapasite": 12,
+            "yetkinlikler": [
+                "Optimize",
+                "Veri Analizi"
+            ]
+        },
+        {
+            "isim": "Pınar İleri",
+            "kapasite": 10,
+            "yetkinlikler": [
+                "Pilates Eğitmeni",
+                "Kort Tenis"
+            ]
+        }
+    ]
+}

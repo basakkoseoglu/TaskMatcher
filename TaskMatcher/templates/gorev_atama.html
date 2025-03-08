@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Görev Atama</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+</head>
+<body>
+    <h1 class="animate__animated animate__bounce">Görev Atama</h1>
+    <form method="POST" action="{{ url_for('gorev_atama') }}">
+        <label for="gorev">Görev Seçin:</label><br>
+        <select id="gorev" name="gorev" required>
+            {% for gorev in gorevler %}
+            <option value="{{ gorev['isim'] }}">{{ gorev['isim'] }}</option>
+            {% endfor %}
+        </select><br><br>
+
+        <label for="calisan">Çalışan Seçin:</label><br>
+        <select id="calisan" name="calisan" required>
+            {% for calisan in calisanlar %}
+            <option value="{{ calisan['isim'] }}">{{ calisan['isim'] }}</option>
+            {% endfor %}
+        </select><br><br>
+
+        <button type="submit">Görevi Ata</button>
+    </form>
+    <a href="/">Ana Sayfa</a>
+</body>
+</html>

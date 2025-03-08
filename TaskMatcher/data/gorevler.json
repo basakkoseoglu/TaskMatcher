@@ -1,0 +1,190 @@
+{
+    "gorevler": [
+        {
+            "isim": "Sosyal Medya Yöntecisi",
+            "sure": 7,
+            "gereksinim": "Sosyal Medya Yönetimi",
+            "atanan_calisan": "Ayşe"
+        },
+        {
+            "isim": "Veri Analizi",
+            "sure": 8,
+            "gereksinim": "İstatistik, Python, Excel",
+            "atanan_calisan": "Atanmadı"
+        },
+        {
+            "isim": "Veri Analizi",
+            "sure": 7,
+            "gereksinim": "Veri Analizi",
+            "atanan_calisan": "Murat"
+        },
+        {
+            "isim": "SEO",
+            "sure": 6,
+            "gereksinim": "Dijital Pazarlama",
+            "atanan_calisan": "Kadir"
+        },
+        {
+            "isim": "Yazılım Geliştirme",
+            "sure": 8,
+            "gereksinim": "Programlama",
+            "atanan_calisan": "Ahmet"
+        },
+        {
+            "isim": "Rapor Yazma",
+            "sure": 7,
+            "gereksinim": "İstatistik",
+            "atanan_calisan": "Mehmet"
+        },
+        {
+            "isim": "Rapor Yazımı",
+            "sure": 4,
+            "gereksinim": "Raporlama",
+            "atanan_calisan": "Elif"
+        },
+        {
+            "isim": "Grafik Tasarım",
+            "sure": 6,
+            "gereksinim": "Grafik Tasarım",
+            "atanan_calisan": "Zeynep"
+        },
+        {
+            "isim": "Veri Analizi",
+            "sure": 7,
+            "gereksinim": "Veri Analizi",
+            "atanan_calisan": "Cem"
+        },
+        {
+            "isim": "Finansal Analiz",
+            "sure": 8,
+            "gereksinim": "Bütçe Yönetimi",
+            "atanan_calisan": "Atanmadı"
+        },
+        {
+            "isim": "Yazılım Testi",
+            "sure": 8,
+            "gereksinim": "Kodlama",
+            "atanan_calisan": "Hasan"
+        },
+        {
+            "isim": "Proje Yönetimi",
+            "sure": 7,
+            "gereksinim": "Liderlik",
+            "atanan_calisan": "Ali"
+        },
+        {
+            "isim": "SEO",
+            "sure": 8,
+            "gereksinim": "İçerik Yönetimi",
+            "atanan_calisan": "Seda"
+        },
+        {
+            "isim": "Web Geliştirme",
+            "sure": 7,
+            "gereksinim": "PHP",
+            "atanan_calisan": "Gökhan"
+        },
+        {
+            "isim": "Pazarlama",
+            "sure": 6,
+            "gereksinim": "Pazarlama",
+            "atanan_calisan": "Burak"
+        },
+        {
+            "isim": "Endüstri Mühendisliği",
+            "sure": 8,
+            "gereksinim": "Verimlilik",
+            "atanan_calisan": "Okan"
+        },
+        {
+            "isim": "Hukuk",
+            "sure": 6,
+            "gereksinim": "Sözleşme Yönetimi",
+            "atanan_calisan": "Duygu"
+        },
+        {
+            "isim": "Siber Güvenlik",
+            "sure": 8,
+            "gereksinim": "Ağ Güvenliği",
+            "atanan_calisan": "Emre"
+        },
+        {
+            "isim": "Medya İlişkileri",
+            "sure": 7,
+            "gereksinim": "İletişim",
+            "atanan_calisan": "Onur"
+        },
+        {
+            "isim": "Operasyon",
+            "sure": 6,
+            "gereksinim": "Süreç Yönetimi",
+            "atanan_calisan": "Mehmet Ali"
+        },
+        {
+            "isim": "Eğitim Koordinatörü",
+            "sure": 7,
+            "gereksinim": "İçerik Üretimi",
+            "atanan_calisan": "Selin"
+        },
+        {
+            "isim": "Veri Analizi",
+            "sure": 8,
+            "gereksinim": "Yazılım Geliştirme",
+            "atanan_calisan": "Funda"
+        },
+        {
+            "isim": "Mobil Uygulama ",
+            "sure": 8,
+            "gereksinim": "Mobil Uygulama",
+            "atanan_calisan": "Başak"
+        },
+        {
+            "isim": "Web Geliştirme",
+            "sure": 5,
+            "gereksinim": "Flutter",
+            "atanan_calisan": "Samet"
+        },
+        {
+            "isim": "Veri Analizi",
+            "sure": 10,
+            "gereksinim": "Java",
+            "atanan_calisan": "Oğulcan Bozkurt "
+        },
+        {
+            "isim": "Flutter",
+            "sure": 12,
+            "gereksinim": "Yazılım",
+            "atanan_calisan": "Canan Sarıkaya"
+        },
+        {
+            "isim": "Yazılım",
+            "sure": 9,
+            "gereksinim": "Yazılım Testi",
+            "atanan_calisan": "Başak Köseoğlu"
+        },
+        {
+            "isim": "Mobil",
+            "sure": 12,
+            "gereksinim": "Kotlin",
+            "atanan_calisan": "Burçin Güngör"
+        },
+        {
+            "isim": "Veri Analizi",
+            "sure": 12,
+            "gereksinim": "Optime",
+            "atanan_calisan": "Atanmadı"
+        },
+        {
+            "isim": "Veri Analizi",
+            "sure": 12,
+            "gereksinim": "Optimize",
+            "atanan_calisan": "İbrahim Şanlıalp"
+        },
+        {
+            "isim": "Beden Eğitimi",
+            "sure": 10,
+            "gereksinim": "Pilates Eğitmeni",
+            "atanan_calisan": "Pınar İleri"
+        }
+    ]
+}

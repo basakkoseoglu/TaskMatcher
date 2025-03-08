@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeni Görev Ekle</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>Yeni Görev Ekle</h1>
+    <form method="POST" action="{{ url_for('gorev_ekle') }}">
+        <label for="isim">Görev İsmi:</label><br>
+        <input type="text" id="isim" name="isim" required><br><br>
+
+        <label for="sure">Görev Süresi (Saat):</label><br>
+        <input type="number" id="sure" name="sure" required><br><br>
+
+        <label for="gereksinim">Yetkinlik Gereksinimi:</label><br>
+        <input type="text" id="gereksinim" name="gereksinim" required><br><br>
+
+        <button type="submit">Görev Ekle ve Ata</button>
+    </form>
+    <p>Görev eklendiğinde uygun bir çalışana otomatik atanacaktır.</p>
+    <a href="/">Ana Sayfa</a>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Çalışanlar Yönetimi</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>Çalışanlar Yönetimi</h1>
+    <a href="{{ url_for('index') }}">Ana Sayfa</a>
+    <a href="{{ url_for('calisan_ekle') }}">Yeni Çalışan Ekle</a>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Çalışan Adı</th>
+                <th>Kapasite</th>
+                <th>Yetkinlikler</th>
+                <th>Görevler</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for calisan in calisanlar %}
+            <tr>
+                <td>{{ calisan.isim }}</td>
+                <td>{{ calisan.kapasite }}</td>
+                <td>{{ ', '.join(calisan.yetkinlikler) }}</td>
+                <td>
+                    {% if calisan.gorevler %}
+                        <ul>
+                            {% for gorev in calisan.gorevler %}
+                            <li>{{ gorev.isim }} ({{ gorev.sure }} saat)</li>
+                            {% endfor %}
+                        </ul>
+                    {% else %}
+                        Görev yok
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
